@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phrowler — Enterprise GPT for Your Business Data</title>
+<meta name="description" content="Phrowler is an always-on AI knowledge worker trained exclusively on your business data. Predict risk, prescribe next actions, and strategize — without your data ever leaving your control.">
+<link rel="icon" type="image/png" href="assets/phrowler-letters.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============================================================
+     NAV
+     ============================================================ -->
+<nav class="nav" id="nav">
+  <div class="container">
+    <a href="#top" class="brand">
+      <div class="phr-badge phr-badge--nav">
+        <div class="phr-badge__bg"></div>
+        <svg viewBox="0 0 1600 1600">
+          <defs>
+            <linearGradient id="glossyOrange-nav" x1="0.1" y1="0.05" x2="0.9" y2="0.95" gradientUnits="objectBoundingBox">
+              <stop offset="0%" stop-color="#5c260f"/>
+              <stop offset="15%" stop-color="#c1531a"/>
+              <stop offset="35%" stop-color="#ff8a3d"/>
+              <stop offset="50%" stop-color="#ffe8c2"/>
+              <stop offset="65%" stop-color="#ff8a3d"/>
+              <stop offset="85%" stop-color="#c1531a"/>
+              <stop offset="100%" stop-color="#5c260f"/>
+              <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="4s" repeatCount="indefinite"/>
+            </linearGradient>
+            <filter id="softGlow-nav" x="-50%" y="-50%" width="200%" height="200%">
+              <feGaussianBlur stdDeviation="10"/>
+            </filter>
+          </defs>
+          <circle cx="800" cy="800" r="620" fill="none" stroke="url(#glossyOrange-nav)" stroke-width="110"/>
+          <circle cx="800" cy="800" r="620" fill="none" stroke="#fff6e6" stroke-width="110" stroke-linecap="round" stroke-dasharray="170 3724" opacity="0.85" filter="url(#softGlow-nav)">
+            <animate attributeName="stroke-dashoffset" from="0" to="-3894" dur="4s" repeatCount="indefinite"/>
+          </circle>
+        </svg>
+        <img class="phr-badge__letters" src="assets/phrowler-letters.png" alt="">
+      </div>
+      Phrowler<span class="brand-ai">AI</span>
+    </a>
+
+    <div class="nav-links">
+      <a href="#product">Product</a>
+      <a href="#security">Security</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="nav-actions">
+      <a href="#contact" class="btn btn-ghost">Contact</a>
+      <a href="#contact" class="btn btn-primary">Book a Demo</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <svg width="18" height="14" viewBox="0 0 18 14" fill="none"><path d="M0 1H18M0 7H18M0 13H18" stroke="currentColor" stroke-width="1.5"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="nav-mobile" id="navMobile">
+  <a href="#product">Product</a>
+  <a href="#security">Security</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="btn btn-primary" style="align-self: flex-start; margin-top: 12px;">Book a Demo</a>
+</div>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<header class="hero" id="top">
+  <div class="container">
+    <div class="hero-copy reveal">
+      <span class="eyebrow">Enterprise GPT for Your Business Data</span>
+      <h1>Your business already has <span class="highlight">the answers.</span> You just can't hear them — yet.</h1>
+      <p class="hero-sub">Phrowler is your always-on AI knowledge worker for decision-making — trained exclusively on your business data, so it predicts risk, prescribes next actions, and helps leadership strategize.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">Book a Demo</a>
+        <a href="#demo" class="btn btn-ghost">See how it works</a>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="hero-visual-ring"></div>
+      <div class="phr-badge phr-badge--hero">
+        <div class="phr-badge__bg"></div>
+        <svg viewBox="0 0 1600 1600">
+          <defs>
+            <linearGradient id="glossyOrange-hero" x1="0.1" y1="0.05" x2="0.9" y2="0.95" gradientUnits="objectBoundingBox">
+              <stop offset="0%" stop-color="#5c260f"/>
+              <stop offset="15%" stop-color="#c1531a"/>
+              <stop offset="35%" stop-color="#ff8a3d"/>
+              <stop offset="50%" stop-color="#ffe8c2"/>
+              <stop offset="65%" stop-color="#ff8a3d"/>
+              <stop offset="85%" stop-color="#c1531a"/>
+              <stop offset="100%" stop-color="#5c260f"/>
+              <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="4s" repeatCount="indefinite"/>
+            </linearGradient>
+            <filter id="softGlow-hero" x="-50%" y="-50%" width="200%" height="200%">
+              <feGaussianBlur stdDeviation="10"/>
+            </filter>
+          </defs>
+          <circle cx="649.5" cy="639.5" r="330" fill="none" stroke="url(#glossyOrange-hero)" stroke-width="55"/>
+          <circle cx="649.5" cy="639.5" r="330" fill="none" stroke="#fff6e6" stroke-width="55" stroke-linecap="round" stroke-dasharray="90 1983" opacity="0.85" filter="url(#softGlow-hero)">
+            <animate attributeName="stroke-dashoffset" from="0" to="-2073" dur="4s" repeatCount="indefinite"/>
+          </circle>
+        </svg>
+        <img class="phr-badge__letters" src="assets/phrowler-letters.png" alt="Phrowler logo">
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================================
+     THE PROBLEM
+     ============================================================ -->
+<section class="problem" id="problem">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">A knowledge management system, in a nutshell</span>
+      <h2>Here's the part nobody wants to say out loud.</h2>
+    </div>
+    <div class="stat-grid">
+      <div class="stat-card reveal">
+        <span class="stat-number" data-count="42" data-suffix="%">0%</span>
+        <p>of critical business knowledge is lost when people leave. Every year.</p>
+      </div>
+      <div class="stat-card reveal">
+        <span class="stat-number" data-count="61" data-suffix="%">0%</span>
+        <p>of businesses make decisions on data that is 6+ months stale.</p>
+      </div>
+      <div class="stat-card reveal">
+        <span class="stat-number" data-count="900" data-suffix="+">0+</span>
+        <p>disconnected apps — the average enterprise runs this many simultaneously.</p>
+      </div>
+      <div class="stat-card reveal">
+        <span class="stat-number" data-count="47" data-prefix="$" data-suffix="M">$0M</span>
+        <p>average annual cost of poor knowledge management. Per company.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PRODUCT DEMO
+     ============================================================ -->
+<section id="demo">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">See it in action</span>
+      <h2>What if your business data could talk back to you?</h2>
+    </div>
+
+    <div class="demo-wrap reveal">
+      <div class="demo-header">
+        <span class="demo-dot"></span><span class="demo-dot"></span><span class="demo-dot"></span>
+        <span class="demo-title">phrowler — knowledge worker</span>
+      </div>
+      <div class="chat">
+        <div class="bubble bubble-user">
+          <span class="bubble-label">You</span>
+          What's causing the Q3 revenue dip?
+        </div>
+        <div class="bubble bubble-ai">
+          <span class="bubble-label">Phrowler</span>
+          Based on your last 18 months of sales data, the dip is driven by 3 factors: supplier delays (+14 days), 22% churn in SMB segments, and seasonal underspend. Here's what I recommend&hellip;
+        </div>
+        <div class="bubble bubble-user">
+          <span class="bubble-label">You</span>
+          What should we do first?
+        </div>
+        <div class="bubble bubble-ai">
+          <span class="bubble-label">Phrowler</span>
+          Priority 1: re-engage your top 40 churned accounts. I've drafted outreach scripts based on their purchase history.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     MEET PHROWLER — pillars
+     ============================================================ -->
+<section id="product">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Meet Phrowler</span>
+      <h2>Enterprise GPT, trained exclusively on your data</h2>
+      <p>Not generic AI. Not another dashboard. Your institutional knowledge, made intelligent.</p>
+    </div>
+
+    <div class="pillars">
+      <div class="pillar-card reveal">
+        <div class="pillar-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 18L10 12L14 16L20 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 6H14M20 6V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Predict — Risk &amp; Forecast</h3>
+        <p>Spot risks 30&ndash;90 days ahead, before they show up on a P&amp;L.</p>
+      </div>
+      <div class="pillar-card reveal">
+        <div class="pillar-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2L14.5 9H21.5L15.5 13.5L18 20.5L12 16L6 20.5L8.5 13.5L2.5 9H9.5L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Prescribe — Next Best Action</h3>
+        <p>Step-by-step next actions generated directly from your own data.</p>
+      </div>
+      <div class="pillar-card reveal">
+        <div class="pillar-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 20V10M10 20V4M17 20V13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Strategize — Market &amp; Growth</h3>
+        <p>Beat competitors with live market intelligence built into every answer.</p>
+      </div>
+    </div>
+
+    <div class="engine-strip reveal">
+      <span class="engine-pill">Training</span><span class="engine-arrow">&rarr;</span>
+      <span class="engine-pill">Analysis</span><span class="engine-arrow">&rarr;</span>
+      <span class="engine-pill">Results</span>
+    </div>
+    <div class="data-sources reveal">
+      <span class="data-chip">CRM Data</span>
+      <span class="data-chip">Finance</span>
+      <span class="data-chip">Operations</span>
+      <span class="data-chip">Market Data</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECURITY & CONTROL
+     ============================================================ -->
+<section class="security" id="security">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">The first question every enterprise asks</span>
+      <h2>Your data never leaves your control.</h2>
+      <p>And it's the right question to ask.</p>
+    </div>
+
+    <div class="security-grid">
+      <div class="security-tile reveal">
+        <div class="security-tile-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="4" y="10" width="16" height="10" rx="2" stroke="currentColor" stroke-width="2"/><path d="M8 10V7a4 4 0 018 0v3" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <div>
+          <h3>Private Deployment</h3>
+          <p>Your Phrowler instance runs on your infrastructure — cloud or on-premise. No data shared with any third party, ever.</p>
+        </div>
+      </div>
+      <div class="security-tile reveal">
+        <div class="security-tile-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3" stroke="currentColor" stroke-width="2"/><path d="M5 20c0-3.5 3-6 7-6s7 2.5 7 6" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <div>
+          <h3>Role-Based Access</h3>
+          <p>Granular permissions by team, department, or individual. Your CFO sees financials; your ops team sees ops.</p>
+        </div>
+      </div>
+      <div class="security-tile reveal">
+        <div class="security-tile-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <div>
+          <h3>Audit Trail</h3>
+          <p>Every query, every output is logged. Full visibility into what was asked, what was answered, and by whom.</p>
+        </div>
+      </div>
+      <div class="security-tile reveal">
+        <div class="security-tile-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2l8 4v6c0 5-3.4 8.6-8 10-4.6-1.4-8-5-8-10V6l8-4z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </div>
+        <div>
+          <h3>Enterprise-Grade Encryption</h3>
+          <p>AES-256 at rest, TLS 1.3 in transit. SOC 2 Type II&ndash;compliant architecture as standard.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     BUILT FOR ADOPTION
+     ============================================================ -->
+<section id="adoption">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Built for adoption, not adaptation</span>
+      <h2>Effortless by design. Powerful by default.</h2>
+      <p>From first login to enterprise-wide rollout.</p>
+    </div>
+
+    <div class="feature-rows">
+      <div class="feature-row reveal">
+        <h3>One-Click Functionality</h3>
+        <p>A modern, intuitive design language where every insight is one click away. No manuals, no learning curve.</p>
+      </div>
+      <div class="feature-row reveal">
+        <h3>Ready-to-Use Platform</h3>
+        <p>No lengthy implementation cycles. Just plug in your data source and start asking questions from day one.</p>
+      </div>
+      <div class="feature-row reveal">
+        <h3>Anytime, Anywhere Access</h3>
+        <p>Device-agnostic by design — the same seamless experience on your phone, tablet, or PC.</p>
+      </div>
+      <div class="feature-row reveal">
+        <h3>One-Click Access Control</h3>
+        <p>Simple user management lets you control and restrict exactly what each user can see and view.</p>
+      </div>
+      <div class="feature-row reveal">
+        <h3>One Stop Shop</h3>
+        <p>One simple solution for the data-analysis needs of every user, role, and department in your organization.</p>
+      </div>
+    </div>
+
+    <p class="closing-line reveal">One platform. Every device. Every team. <span>Phrowler works wherever — and however — you do.</span></p>
+  </div>
+</section>
+
+<!-- ============================================================
+     CLARITY & COST CONTROL
+     ============================================================ -->
+<section class="security" id="clarity">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Purpose-built, not another generic GPT</span>
+      <h2>Clarity you can act on. Costs you can see.</h2>
+    </div>
+
+    <div class="feature-rows">
+      <div class="feature-row reveal">
+        <h3>Customized for Your Business</h3>
+        <p>Eliminates the noise of generic GPT tools and delivers clear insights tailored to your specific business needs.</p>
+      </div>
+      <div class="feature-row reveal">
+        <h3>Information Simplified</h3>
+        <p>Converts your data into simple, intuitive visuals and summaries — so decisions are quick and informed.</p>
+      </div>
+      <div class="feature-row reveal">
+        <h3>Empowered Decision Making</h3>
+        <p>Every decision grounded in facts and data — not emotion and instinct.</p>
+      </div>
+      <div class="feature-row reveal">
+        <h3>Privacy &amp; Security</h3>
+        <p>End-to-end encryption as standard, with an extra layer via dedicated cloud or on-premise deployment.</p>
+      </div>
+      <div class="feature-row reveal">
+        <h3>Cost Control &amp; Management</h3>
+        <p>A dedicated module gives in-depth visibility of every token used, with easy-to-implement usage and cost controls.</p>
+      </div>
+    </div>
+
+    <div class="token-card reveal">
+      <div class="token-card-head">
+        <span>Your token spend, live</span>
+        <span id="tokenPercent">0%</span>
+      </div>
+      <div class="token-bar-track"><div class="token-bar-fill" id="tokenBar" data-target="64"></div></div>
+      <p class="token-card-foot">of this week's token budget used</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT
+     ============================================================ -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="eyebrow reveal" style="justify-content:center;">About Phrowler</div>
+    <p class="about-quote reveal">Phrowler was born from a shared vision of passionate technologists who believe that great software isn't just built with lines of code &mdash; it's thoughtfully crafted.</p>
+    <p class="about-sub reveal">Our layered thinking helps translate complex, abstract ideas into practical, tech-forward solutions custom tailored for real-world use.</p>
+    <p class="about-final reveal">We don't just solve problems&hellip; we understand them.</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     FINAL CTA
+     ============================================================ -->
+<section class="cta" id="contact">
+  <div class="container reveal">
+    <h2>Simplifying Complexity with Smart Technology</h2>
+    <p>Ready to hear what your business data has been trying to tell you?</p>
+    <a href="mailto:contact@phrowler.ai" class="btn btn-primary">Book a Demo</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="phr-badge phr-badge--footer">
+          <div class="phr-badge__bg"></div>
+          <svg viewBox="0 0 1600 1600">
+            <defs>
+              <linearGradient id="glossyOrange-footer" x1="0.1" y1="0.05" x2="0.9" y2="0.95" gradientUnits="objectBoundingBox">
+                <stop offset="0%" stop-color="#5c260f"/>
+                <stop offset="15%" stop-color="#c1531a"/>
+                <stop offset="35%" stop-color="#ff8a3d"/>
+                <stop offset="50%" stop-color="#ffe8c2"/>
+                <stop offset="65%" stop-color="#ff8a3d"/>
+                <stop offset="85%" stop-color="#c1531a"/>
+                <stop offset="100%" stop-color="#5c260f"/>
+                <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="4s" repeatCount="indefinite"/>
+              </linearGradient>
+              <filter id="softGlow-footer" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="10"/>
+              </filter>
+            </defs>
+            <circle cx="800" cy="800" r="620" fill="none" stroke="url(#glossyOrange-footer)" stroke-width="110"/>
+            <circle cx="800" cy="800" r="620" fill="none" stroke="#fff6e6" stroke-width="110" stroke-linecap="round" stroke-dasharray="170 3724" opacity="0.85" filter="url(#softGlow-footer)">
+              <animate attributeName="stroke-dashoffset" from="0" to="-3894" dur="4s" repeatCount="indefinite"/>
+            </circle>
+          </svg>
+          <img class="phr-badge__letters" src="assets/phrowler-letters.png" alt="">
+        </div>
+        Phrowler<span class="brand-ai">AI</span>
+      </div>
+      <div class="footer-links">
+        <a href="#product">Product</a>
+        <a href="#security">Security</a>
+        <a href="#about">About</a>
+        <a href="mailto:contact@phrowler.ai">contact@phrowler.ai</a>
+        <a href="https://www.linkedin.com/company/phrowler/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Phrowler. All rights reserved.</span>
+      <span>Simplifying Complexity with Smart Technology.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
